@@ -1,0 +1,8 @@
+
+/* Your tiny custom tweaks; Tailwind does the heavy lifting */
+:root{--ring:rgba(255,255,255,.15)}
+.nav-link.active{color:#fff !important}
+/* Optional: reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce){
+  * {animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; scroll-behavior:auto !important;}
+}
